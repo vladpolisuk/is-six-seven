@@ -1,0 +1,22 @@
+{
+  "name": "is-six-seven",
+  "version": "1.0.0",
+  "description": "Check if a number is equal to 67",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "number",
+    "check",
+    "67",
+    "sixty-seven",
+    "utility"
+  ],
+  "author": "Vladislav Polishchuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladpolisuk/is-six-seven.git"
+  }
+}
