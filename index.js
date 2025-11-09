@@ -3,12 +3,12 @@
  * @param {number} num - The number to check
  * @returns {boolean} True if the number equals 67, false otherwise
  */
-function isSixtySeven(num) {
+function isSixSeven(num) {
   if (typeof num !== 'number' || isNaN(num)) {
     return false;
   }
   return num === 67;
 }
 
-module.exports = isSixtySeven;
-module.exports.default = isSixtySeven;
+module.exports = isSixSeven;
+module.exports.default = isSixSeven;

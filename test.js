@@ -1,6 +1,6 @@
-const isSixtySeven = require('./index');
+const isSixSeven = require('./index');
 
-console.log('Testing is-sixty-seven package:\n');
+console.log('Testing is-six-seven package:\n');
 
 // Test cases
 const tests = [
@@ -18,7 +18,7 @@ const tests = [
 ];
 
 tests.forEach(({ input, expected }) => {
-  const result = isSixtySeven(input);
+  const result = isSixSeven(input);
   const status = result === expected ? '✓' : '✗';
-  console.log(`${status} isSixtySeven(${JSON.stringify(input)}) = ${result} (expected ${expected})`);
+  console.log(`${status} isSixSeven(${JSON.stringify(input)}) = ${result} (expected ${expected})`);
 });
